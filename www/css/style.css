@@ -21,9 +21,20 @@ body {
          display: flex;
          justify-content: space-between;
          flex-flow: column;
+         background-color: black;
+         color: yellow;
+}
+
+div {
+         padding: 20px;
 }
 
 .tabs-content {
          height: 100vh;
-         overflow-y: scroll !important;
+         overflow-y: scroll;
+}
+
+.api-button,
+.api-item {
+         cursor: pointer;
 }
